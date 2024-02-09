@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(to bottom, #1f2937 0%, #1f2937 25%, white 25%, white 50%, lightgrey 50%, lightgrey 75%, white 75%, white 100%);
+    min-height: 100vh;
+}
+nav {
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    color: grey;
+}
+.header {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: white;
+}
+.awesome {
+    margin: 100px;
+    }
+.awesome h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    }
+.awesome p{
+    color: grey;
+    font-size: 14px;
+    }
+.button1 {
+    background-color: #3882f6;
+    padding: 6px 10px;
+    width: fit-content;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+}
+.image {
+    background-color: grey;
+    width: 300px;
+    padding: 150px;
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+    color: white;
+    text-align: center;
+}
+.random {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+.image-container {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    border: solid blue;
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.subtext{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    margin: 50px;
+    font-size: 25px;
+}
+h3{
+    font-weight: bold;
+    text-align:center;
+}
+.footer {
+    background-color: #3882f6;
+    margin: 80px;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.button2{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    padding: 5px 10px;
+    margin: 25px 50px 50px 500px;
+}
